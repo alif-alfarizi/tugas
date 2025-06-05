@@ -8,60 +8,7 @@
     <style>
         body {
             font-family: 'Poppins', sans-serif;
- 
-        }
-        header {
-            background-color: #ffffff;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            padding: 1rem 0;
-        }
-
-        nav {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        .nav-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color:rgb(48, 177, 58);
-        }
-
-        .nav-menu {
-            display: flex;
-            gap: 2rem;
-        }
-
-        .nav-menu a {
-            color: #2c3e50;
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.3s ease;
-        }
-
-        .nav-menu a:hover {
-            color:rgba(39, 218, 48, 0.82);
-        }
-
-        .nav-link {
-            font-weight: 500;
-            color: #2c3e50 !important;
-            margin: 0 0.5rem;
-            transition: color 0.3s ease;
-        }
-
-        .nav-link:hover {
-            color: #3498db !important;
+            background-color: #f8f9fa;
         }
         .container {
             max-width: 800px;
@@ -88,40 +35,23 @@
         .btn-primary:hover {
             background-color: #2980b9;
         }
-        footer {
-            background-color:rgb(49, 202, 75);
-            color: white;
-            padding: 3rem 0;
-        }
-
-        .contact-info {
-            margin-bottom: 1.5rem;
-        }
-
-        .social-links a {
-            color: white;
-            margin: 0 10px;
-            font-size: 1.5rem;
-           
-        }
-
-        .social-links a:hover {
-            color: #3498db;
-        }
     </style>
 </head>
 <body>
-<header>
-        <nav>
-            <div class="nav-container">
-                <div class="logo">Starbuck</div>
-                <div class="nav-menu">
-                    <a href="#">Beranda</a>
-                    <a href="shop.php">Belanja</a>
-                    <a href="tentangkami.php">Tentang Kami</a>
-                    <a href="hubungikami.php">Hubungi Kami</a>
-                    <a href="login.php">Masuk</a>
-                    <a href="register.php">Daftar</a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#">TokoOnline</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.php">Beranda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="shop.php">Belanja</a></li>
+                        <li class="nav-item"><a class="nav-link" href="tentangkami.php">Tentang Kami</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="hubungikami.php">Hubungi Kami</a></li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -146,19 +76,8 @@
         </form>
     </div>
 
-    <footer>
-        <div class=" text-center">
-            <div class="contact-info">
-                <p>Email: info@tokonline.com | Telepon: (021) 1234-5678</p>
-                <p>Alamat: Jalan Contoh No. 123, Jakarta</p>
-            </div>
-            <div class="social-links">
-                <a href="#"><span>📱</span></a>
-                <a href="#"><span>📸</span></a>
-                <a href="#"><span>🐦</span></a>
-            </div>
-            <p class="mt-4">&copy; 2025 TokoOnline. Hak Cipta Dilindungi.</p>
-        </div>
+    <footer class="text-center mt-5 py-4 bg-dark text-light">
+        <p>&copy; 2025 TokoOnline. Hak Cipta Dilindungi.</p>
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

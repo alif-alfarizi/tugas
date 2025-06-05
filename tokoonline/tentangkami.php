@@ -49,7 +49,7 @@
         .logo {
             font-size: 1.5rem;
             font-weight: 700;
-            color:rgb(48, 177, 58);
+            color: #2c3e50;
         }
 
         .nav-menu {
@@ -65,7 +65,7 @@
         }
 
         .nav-menu a:hover {
-            color:rgba(39, 218, 48, 0.82);
+            color: #3498db;
         }
 
         .nav-link {
@@ -80,7 +80,7 @@
         }
 
         .hero-section {
-            background: linear-gradient(135deg,rgb(52, 219, 102), #2c3e50);
+            background: linear-gradient(135deg, #3498db, #2c3e50);
             color: white;
             padding: 6rem 0;
             margin-bottom: 4rem;
@@ -117,7 +117,7 @@
 
         .card-icon {
             font-size: 3rem;
-            color:rgb(80, 224, 61);
+            color: #3498db;
             margin-bottom: 1.5rem;
         }
 
@@ -145,7 +145,7 @@
         }
 
         .stats-section {
-            background-color:rgba(96, 231, 84, 0.69);
+            background-color: #3498db;
             color: white;
             padding: 4rem 0;
         }
@@ -162,7 +162,7 @@
         }
 
         footer {
-            background-color:rgb(49, 202, 75);
+            background-color: #2c3e50;
             color: white;
             padding: 3rem 0;
         }
@@ -184,17 +184,17 @@
     </style>
 </head>
 <body>
-<header>
+    <header>
         <nav>
             <div class="nav-container">
-                <div class="logo">Starbuck</div>
+                <div class="logo">TokoOnline</div>
                 <div class="nav-menu">
-                    <a href="#">Beranda</a>
+                    <a href="index.php">Beranda</a>
                     <a href="shop.php">Belanja</a>
                     <a href="tentangkami.php">Tentang Kami</a>
-                    <a href="hubungikami.php">Hubungi Kami</a>
-                    <a href="login.php">Masuk</a>
-                    <a href="register.php">Daftar</a>
+                    <a href="#">Hubungi Kami</a>
+                    <a href="#">Masuk</a>
+                    <a href="#">Daftar</a>
                 </div>
             </div>
         </nav>
@@ -214,16 +214,76 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="card h-100 p-4">
-                        <div class="card-icon"></div>
-                        <h3 class="card-title">Misi</h3>
+                        <div class="card-icon">🎯</div>
+                        <h3 class="card-title">Misi Kami</h3>
                         <p>Kami berkomitmen untuk memberikan pengalaman belanja yang nyaman dan aman bagi pelanggan kami. Dengan fokus pada kualitas produk dan layanan pelanggan yang prima.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="card h-100 p-4">
-                        <div class="card-icon"></div>
-                        <h3 class="card-title">Visi</h3>
+                        <div class="card-icon">🚀</div>
+                        <h3 class="card-title">Visi Kami</h3>
                         <p>Menjadi platform e-commerce terdepan yang dipercaya oleh masyarakat luas, dengan inovasi teknologi dan pelayanan yang terbaik di kelasnya.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team-section">
+        <div class="container text-center">
+            <h2 class="mb-5">Tim Kami</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <img src="/api/placeholder/150/150" alt="Team Member 1">
+                        <h4>John Doe</h4>
+                        <p>CEO & Founder</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <img src="/api/placeholder/150/150" alt="Team Member 2">
+                        <h4>Jane Smith</h4>
+                        <p>Head of Operations</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <img src="/api/placeholder/150/150" alt="Team Member 3">
+                        <h4>Mike Johnson</h4>
+                        <p>Customer Service Lead</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="stat-item">
+                        <div class="stat-number">10k+</div>
+                        <div>Pelanggan Puas</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-item">
+                        <div class="stat-number">5000+</div>
+                        <div>Produk</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-item">
+                        <div class="stat-number">99%</div>
+                        <div>Rating Positif</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div>Dukungan</div>
                     </div>
                 </div>
             </div>

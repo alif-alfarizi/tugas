@@ -44,7 +44,7 @@
         }
 
         .btn-register {
-            background-color:rgba(68, 214, 124, 0.75);
+            background-color: #3498db;
             color: white;
             border-radius: 25px;
             padding: 12px;
@@ -74,7 +74,7 @@
 <body>
     <div class="register-container">
         <div class="register-header">
-            <h2>Registrasi Starbuck</h2>
+            <h2>Registrasi TokoOnline</h2>
         </div>
         <form action="#" method="POST">
             <input type="text" class="form-control" placeholder="Nama Lengkap" required>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Starbuck</title>
+    <title>Shop - Toko Online</title>
     <style>
         /* Import fonts */
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
@@ -47,7 +47,7 @@
         .logo {
             font-size: 1.5rem;
             font-weight: 700;
-            color:rgb(53, 187, 71);
+            color: #2c3e50;
         }
 
         .nav-menu {
@@ -63,7 +63,7 @@
         }
 
         .nav-menu a:hover {
-            color:rgba(40, 218, 70, 0.8);
+            color: #3498db;
         }
 
         .shop-container {
@@ -76,7 +76,7 @@
             font-size: 2rem;
             text-align: center;
             margin-bottom: 2rem;
-            color:rgb(39, 197, 65);
+            color: #2c3e50;
         }
 
         .product-grid {
@@ -87,7 +87,7 @@
 
         .product-card {
             background: white;
-            
+            border-radius: 15px;
             overflow: hidden;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease;
@@ -118,127 +118,92 @@
             font-weight: 600;
             font-size: 1.1rem;
         }
-        footer {
-            text-align: center;
-            background-color:rgb(49, 202, 75);
-            color: white;
-            padding: 3rem 0;
-        }
-
-        .contact-info {
-            margin-bottom: 1.5rem;
-        }
-        .social-links a {
-            color: white;
-            margin: 0 10px;
-            font-size: 1.5rem;
-            transition: color 0.3s ease;
-        }
-
-        .social-links a:hover {
-            color: #3498db;
-            
-        }
     </style>
 </head>
 <body>
 
-<header>
-        <nav>
-            <div class="nav-container">
-                <div class="logo">Starbuck</div>
-                <div class="nav-menu">
-                    <a href="#">Beranda</a>
-                    <a href="shop.php">Belanja</a>
-                    <a href="tentangkami.php">Tentang Kami</a>
-                    <a href="hubungikami.php">Hubungi Kami</a>
-                    <a href="login.php">Masuk</a>
-                    <a href="register.php">Daftar</a>
+    <header>
+            <nav>
+                <div class="nav-container">
+                    <div class="logo">TokoOnline</div>
+                    <div class="nav-menu">
+                        <a href="index.php">Beranda</a>
+                        <a href="shop.php">Belanja</a>
+                        <a href="tentangkami.php">Tentang Kami</a>
+                        <a href="#">Hubungi Kami</a>
+                        <a href="#">Masuk</a>
+                        <a href="#">Daftar</a>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
     <div class="shop-container">
-        <h1 class="shop-title">COFFE</h1>
+        <h1 class="shop-title">Shop</h1>
         <div class="product-grid">
             <div class="product-card">
-                <img src="/api/placeholder/300/250" alt="produk">
+                <img src="/api/placeholder/300/250" alt="Produk 1">
                 <div class="product-info">
-                    <h3 class="product-title"></h3>
-                    <p class="product-price">harga</p>
+                    <h3 class="product-title">Nama Produk 1</h3>
+                    <p class="product-price">Rp 150.000</p>
                 </div>
             </div>
             <div class="product-card">
-                <img src="/api/placeholder/300/250" alt="Produk ">
+                <img src="/api/placeholder/300/250" alt="Produk 2">
                 <div class="product-info">
-                    <h3 class="product-title"></h3>
-                    <p class="product-price">harga</p>
+                    <h3 class="product-title">Nama Produk 2</h3>
+                    <p class="product-price">Rp 200.000</p>
                 </div>
             </div>
             <div class="product-card">
-                <img src="/api/placeholder/300/250" alt="Produk ">
+                <img src="/api/placeholder/300/250" alt="Produk 3">
                 <div class="product-info">
-                    <h3 class="product-title"></h3>
-                    <p class="product-price">harga</p>
+                    <h3 class="product-title">Nama Produk 3</h3>
+                    <p class="product-price">Rp 175.000</p>
                 </div>
             </div>
             <div class="product-card">
-                <img src="/api/placeholder/300/250" alt="Produk ">
+                <img src="/api/placeholder/300/250" alt="Produk 1">
                 <div class="product-info">
-                    <h3 class="product-title"></h3>
-                    <p class="product-price">harga</p>
+                    <h3 class="product-title">Nama Produk 1</h3>
+                    <p class="product-price">Rp 150.000</p>
                 </div>
             </div>
             <div class="product-card">
-                <img src="/api/placeholder/300/250" alt="Produk ">
+                <img src="/api/placeholder/300/250" alt="Produk 2">
                 <div class="product-info">
-                    <h3 class="product-title"></h3>
-                    <p class="product-price">harga</p>
+                    <h3 class="product-title">Nama Produk 2</h3>
+                    <p class="product-price">Rp 200.000</p>
                 </div>
             </div>
             <div class="product-card">
-                <img src="/api/placeholder/300/250" alt="Produk ">
+                <img src="/api/placeholder/300/250" alt="Produk 3">
                 <div class="product-info">
-                    <h3 class="product-title"></h3>
-                    <p class="product-price">harga</p>
+                    <h3 class="product-title">Nama Produk 3</h3>
+                    <p class="product-price">Rp 175.000</p>
                 </div>
             </div>
             <div class="product-card">
-                <img src="/api/placeholder/300/250" alt="Produk ">
+                <img src="/api/placeholder/300/250" alt="Produk 1">
                 <div class="product-info">
-                    <h3 class="product-title"></h3>
-                    <p class="product-price">harga</p>
+                    <h3 class="product-title">Nama Produk 1</h3>
+                    <p class="product-price">Rp 150.000</p>
                 </div>
             </div>
             <div class="product-card">
-                <img src="/api/placeholder/300/250" alt="Produk ">
+                <img src="/api/placeholder/300/250" alt="Produk 2">
                 <div class="product-info">
-                    <h3 class="product-title"></h3>
-                    <p class="product-price">harga</p>
+                    <h3 class="product-title">Nama Produk 2</h3>
+                    <p class="product-price">Rp 200.000</p>
                 </div>
             </div>
             <div class="product-card">
-                <img src="/api/placeholder/300/250" alt="Produk ">
+                <img src="/api/placeholder/300/250" alt="Produk 3">
                 <div class="product-info">
-                    <h3 class="product-title"></h3>
-                    <p class="product-price">harga</p>
+                    <h3 class="product-title">Nama Produk 3</h3>
+                    <p class="product-price">Rp 175.000</p>
                 </div>
             </div>
         </div>
     </div>
-    <footer>
-        <div class="container text-center">
-            <div class="contact-info">
-                <p>Email: info@tokonline.com | Telepon: (021) 1234-5678</p>
-                <p>Alamat: Jalan Contoh No. 123, Jakarta</p>
-            </div>
-            <div class="social-links">
-                <a href="#"><span>📱</span></a>
-                <a href="#"><span>📸</span></a>
-                <a href="#"><span>🐦</span></a>
-            </div>
-            <p class="mt-4">&copy; 2025 TokoOnline. Hak Cipta Dilindungi.</p>
-        </div>
-    </footer>
 </body>
 </html>

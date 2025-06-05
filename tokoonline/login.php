@@ -39,12 +39,12 @@
         }
 
         .form-control:focus {
-            border-color: #rgba(38, 199, 78, 0.77);
+            border-color: #3498db;
             box-shadow: none;
         }
 
         .btn-login {
-            background-color:rgba(38, 199, 78, 0.77);
+            background-color: #3498db;
             color: white;
             border-radius: 25px;
             padding: 12px;
@@ -54,7 +54,7 @@
         }
 
         .btn-login:hover {
-            background-color: #rgba(38, 199, 78, 0.77);
+            background-color: #2980b9;
         }
 
         .text-center {
@@ -62,7 +62,7 @@
         }
 
         .text-center a {
-            color: #rgba(38, 199, 78, 0.77)
+            color: #3498db;
             text-decoration: none;
         }
 
@@ -74,7 +74,7 @@
 <body>
     <div class="login-container">
         <div class="login-header">
-            <h2>Login Starbuck</h2>
+            <h2>Login TokoOnline</h2>
         </div>
         <form action="#" method="POST">
             <input type="email" class="form-control" placeholder="Email" required>

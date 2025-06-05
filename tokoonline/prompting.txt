@@ -1,41 +1,18 @@
-Tampilan Toko online
-Prompt 1
-Buatkan saya toko online yang mempunyai 4 bagian yaitu header, banner, produk, footer.
-a. header berisi Logo, beranda, belanjja, tentang kami, Hubungi kami, login, register.
-b. banner berisi 2 banner statis dan 3 banner dinamis
-c. produk terdapat berisi gambar produk, nama produk, harga.
-d. footer berisi tentang menu, tentang kontak, metode pembayaran, dan  edia sosial
-Buatkan HTMLnya saja.
+Saya akan membuat toko online yang terdiri dari 4 bagian yaitu header, bnner, produk, footer. Dimana isi dari header adalah menu, kolom pencarian, register, login. Isi dari banner adalah 2 kolom banner yaitu 1 banner statis dan satu banner dinamis. Isi dari produk adalah gambar, nama produk, dan harga. Footer yang berisi menu, pembayaran, media sosial, dan kontak. buatkan halaman htmlnya saja
+Saya akan membuat halaman admin yang dapat mengubah 3 gambar banner dengan kode 
+    <div class="containerbanner" style="gap: 25px">
+            
+        <section class="banner">
+            <div class="banner-slider">
+                <img src="images/4.jpg" alt="Banner 1">
+                <img src="images/5.png" alt="Banner 2">
+                <img src="images/6.jpeg" alt="Banner 3">
+            </div>
+        </section>
+        
+        <section class="banner2" style="margin-top: 33px; gap: 25px">
+                <img style="width: 455px; height: 143px; border-radius: 15px" src="images/4.jpg" alt="Banner 1">
+                <img style="width: 455px; height: 143px; border-radius: 15px" src="images/4.jpg" alt="Banner 1">
+        </section>
 
-Prompt 2
-alihkan saya kedalam beberapa halaman dengan
-a. halaman beranda merupakan tampilan awal 
-b. halaman belanja berisi tampilan produk
-c. halaman tentang kami berisi tentang deskripsi perusahaan, gambar visi, isi visi, gambar misi, isi misi, nama member, riwayat user. 
-d. Halaman login berisi 
-
-
-
-
-
-
-
-Saya akan membuat toko online yang terdiri dari 4 bagian yaitu : header, banner, product, footer. Dimana isi dari header adalah : menu, kolom pencarian, register, login. Isi dari banner adalah 3 kolom yaitu 1 banner statis dan 2 banner dinamis. Isi dari product adalah gambar, nama product dan harga. footer berisi menu, pembayaran, media sosial, kontak. Buatkan halaman HTML nya saja.
-
-Tolong benarkan cara agar banner slide nya
-
-Buatkan toko online menggunakan php dan mysql dengan fitur : 
-1. menampilkan banner statis dan dinamis, 
-2. menampilkan produk yang terdiri dari gambar produk, nama produk, harga, tambah ke keranjang.
-3. Fungsi cart untuk menambahkan produk yang akan dibeli ke dalam cart, menambah dan mengurangi jumlah, melihat harga, total, menghapus, menghitung total belanja. 
-4. fungsi registrasi pelanggan untuk pedaftaran
-5. login untuk login pelanggan dengan memasukkan email, password. 
-6. kontak untuk pelanggan menghubungi toko dengan memasukkan nama, email, pesan.
-7. About untuk pelanggan mengetahui tentabg toko terdiri dari gambar logo, deskripsi logo, gambar visi, tentang visi, gambar misi, tentang misi, gambar value, tentang value.
-8. Menu shop untuk menampilkan produk agar daoat dilihat oleh pelanggan 
-buatkan "nama program" saja
-
-dummy= untuk memasukkan isi data di mysql
-cara menambahkan isi table pada sql 
-Buatkan dummy data untuk produk sebanyak 20 data dalam bentuk sql agar bisa saya import
-Tampilkan isi tabel produk menggunakan produk.php
+    </div>, lalu dapat menambahkan barang yang dijual dengan fitur CRUD (mengedit gambar produk, nama produk, harga), dapat menerima daftar checkout dari pelanggan untuk melakukan pengiriman, buat dalam beberapa file sesuai dengan fungsinya, halaman admin page sebagai halaman home dari admin
